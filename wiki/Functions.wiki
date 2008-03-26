@@ -4,9 +4,23 @@
 {{{
 jOWL.load(path, callback, options);
 }}}
+Initializes jOWL with OWL-RDFS document - xml file.
   * path : (mandatory) relative path to xml document
   * callback : function to be called when loading completes.
   * options : (optional) JSONObject:
     * onParseError : function(msg){} function to be called when parsing fails
     * reason : true/false, turns on additional reasoning at the expense of performance
     * locale: set preferred language (if available), examples en, fr...
+----
+{{{
+jOWL.parse(document, options);
+}}}
+Initializes jOWL with an OWL-RDFS document - xml document object.
+  * document: (mandatory) xml document object
+  * options: see jOWL.load
+----
+{{{
+jOWL.toString(xmlNode);
+}}}
+Returns a String representation of the OWL-RDFS document
+  * xmlNode : (optional) if specified, only serializes that part of the DOM to String
