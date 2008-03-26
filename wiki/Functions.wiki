@@ -32,6 +32,6 @@ jOWL.getResource(resource, options);
 Returns an owl:Class, owl:ObjectProperty, etc... depending on the resource asked for
   * resource : 
     * as String: value of an rdf:ID or rdf:resource attribute. A reference to an object inside/outside the ontology. Examples: wine , wine#whitewine, ...
-  * options :
+  * options : (optional)
     * type: specify the rdf type: example owl:Class
  
