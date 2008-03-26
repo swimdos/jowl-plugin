@@ -1,4 +1,5 @@
 #summary Functions in jOWL.
+#labels Featured
 
 
 {{{
@@ -24,3 +25,13 @@ jOWL.toString(xmlNode);
 }}}
 Returns a String representation of the OWL-RDFS document
   * xmlNode : (optional) if specified, only serializes that part of the DOM to String
+----
+{{{
+jOWL.getResource(resource, options);
+}}}
+Returns an owl:Class, owl:ObjectProperty, etc... depending on the resource asked for
+  * resource : 
+    * as String: value of an rdf:ID or rdf:resource attribute. A reference to an object inside/outside the ontology. Examples: wine , wine#whitewine, ...
+  * options :
+    * type: specify the rdf type: example owl:Class
+ 
