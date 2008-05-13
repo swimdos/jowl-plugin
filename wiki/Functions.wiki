@@ -34,4 +34,5 @@ Returns an owl:Class, owl:ObjectProperty, etc... depending on the resource asked
     * as String: value of an rdf:ID or rdf:resource attribute. A reference to an object inside/outside the ontology. Examples: wine , wine#whitewine, ...
   * options : (optional)
     * type: specify the rdf type: example owl:Class
+As from jOWL 0.2, this function can also be called as jOWL(resource, options);
  
