@@ -28,6 +28,7 @@ Returns a String representation of the OWL-RDFS document
 ----
 {{{
 jOWL.getResource(resource, options);
+jOWL(resource, options);
 }}}
 Returns an owl:Class, owl:ObjectProperty, etc... depending on the resource asked for
   * resource : 
