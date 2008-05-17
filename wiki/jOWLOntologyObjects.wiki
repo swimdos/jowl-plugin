@@ -52,3 +52,17 @@ Documentation in progress
 
 Documentation in progress
 ----
+
+==ObjectProperty==
+
+----
+
+==DatatypeProperty==
+
+----
+
+==Individual==
+
+----
+
+==External==
