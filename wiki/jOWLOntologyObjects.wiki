@@ -19,6 +19,11 @@ the rdf:ID of the Object.
 }}}
 Returns a nicer representation name for this object, jOWL.options.locale sets the preferred language.
 
+{{{
+.type;
+}}}
+Type of Object: Oneof: ObjectProperty, Class, DatatypePorperty, Thing, ...
+
 == Class ==
 {{{
 .parents();
