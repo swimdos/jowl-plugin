@@ -1,0 +1,32 @@
+#summary A description of the Ontology Objects and their callable functions.
+
+= Introduction =
+
+A description of the Ontology Objects and their callable functions.
+For any function listed below: Results may differ with jOWL.options.reason set to true or false.
+
+
+= Details =
+
+== Common Functions ==
+{{{
+.name;
+}}}
+the rdf:ID of the Object.
+
+{{{
+.label();
+}}}
+Returns a nicer representation name for this object, jOWL.options.locale sets the preferred language.
+
+== Class ==
+{{{
+.parents();
+}}}
+Returns a jOWL Array containing this elements Parents.
+
+{{{
+.individuals();
+}}}
+Returns a jOWL Array containing this elements instantiations (individuals).
+----
