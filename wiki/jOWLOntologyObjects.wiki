@@ -34,4 +34,21 @@ Returns a jOWL Array containing this elements Parents.
 .individuals();
 }}}
 Returns a jOWL Array containing this elements instantiations (individuals).
+
+{{{
+.children();
+}}}
+
+Documentation in progress
+{{{
+.hierarchy(options);
+}}}
+
+Documentation in progress
+
+{{{
+.sourceof();
+}}}
+
+Documentation in progress
 ----
